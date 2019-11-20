@@ -1,0 +1,695 @@
+<h1>ABOUT PAGE</h1>
+
+
+
+
+<html class="google-translate-enabled" lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Home Page - Business Technology Early College High School (BTECH)</title>
+
+
+    <script src="/Content/bower_components/jquery/dist/jquery.js"></script>
+<script src="/Content/bower_components/jquery-ui/jquery-ui.js"></script>
+<script src="/Content/bower_components/underscore/underscore-min.js"></script>
+<script src="/Content/bower_components/moment/moment.js"></script>
+<script src="/Content/bower_components/moment-timezone/builds/moment-timezone-with-data.js"></script>
+<script src="/Content/bower_components/jquery-ui/ui/dialog.js"></script>
+<script src="/Content/bower_components/fullcalendar/dist/fullcalendar.js"></script>
+<script src="/Content/bower_components/smartmenus/src/jquery.smartmenus.js"></script>
+<script src="/Content/bower_components/smartmenus/src/addons/keyboard/jquery.smartmenus.keyboard.js"></script>
+<script src="/Content/bower_components/lightgallery/light-gallery/js/lightGallery.js"></script>
+<script src="/Content/bower_components/OwlCarousel2/dist/owl.carousel.js"></script>
+<script src="/Content/bower_components/bowser/src/bowser.js"></script>
+<script src="/Content/js/Readmore/readmore.js"></script>
+<script src="/Content/js/utils.js"></script>
+<script src="/Content/js/global.init.js"></script>
+<script src="/Content/js/readMore.js"></script>
+<script src="/Content/js/jquery.more-link.js"></script>
+<script src="/Content/js/datetime-service.js"></script>
+<script src="/Content/js/apiService.js"></script>
+<script src="/Content/bower_components/qui-selection/dist/qui-selection.min.js"></script>
+
+    <link href="/Content/css/jquery-ui-dialog.structure.css" rel="stylesheet"/>
+<link href="/Content/bower_components/jquery-ui/themes/base/dialog.css" rel="stylesheet"/>
+<link href="/Content/bower_components/fullcalendar/dist/fullcalendar.css" rel="stylesheet"/>
+<link href="/Content/bower_components/smartmenus/src/css/sm-core-css.css" rel="stylesheet"/>
+<link href="/Content/bower_components/lightgallery/light-gallery/css/lightGallery.css" rel="stylesheet"/>
+<link href="/Content/bower_components/OwlCarousel2/dist/assets/owl.carousel.css" rel="stylesheet"/>
+<link href="/Content/css/echalk-fonts.css" rel="stylesheet"/>
+<link href="/Content/css/ikons.css" rel="stylesheet"/>
+
+    <link href="/css/theme05" rel="stylesheet"/>
+
+
+    <link rel="stylesheet" href="/Content/Themes/Theme05/css/icons.css"/>
+
+
+    <script type='text/javascript'>
+                $(document).ready(function () {
+                    $('time[data-utc-time]').each(
+                        function () {
+                            var utcTimeStr = $(this).attr('data-utc-time');
+                            var localTime = moment.utc(utcTimeStr).toDate();
+
+                            $(this).attr('datetime', moment(localTime).format('YYYY-MM-DD HH:mm:ss'));
+                            $(this).find('.event-month').text(moment(localTime).format('MMM'));
+                            $(this).find('.event-day-number').text(moment(localTime).format('D'));
+
+                            if ($(this).hasClass('event-time')) {
+                                $(this).text(moment(localTime).format('h:mm a'));
+                            }
+                        }
+                    );
+                });
+            </script>
+
+    <script type="text/javascript" src="/Content/Themes/Theme05/js/init.js"></script>
+
+
+
+
+
+                <script>
+                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                    ga('create', 'UA-24101432-15', 'auto');
+                    ga('send', 'pageview');
+                </script>
+
+
+
+
+</head>
+<body>
+<div class="skip-to-content">
+    <button id="skip-to-nav">Skip to Navigation</button>
+    <button id="skip-to-main">Skip to Main Content</button>
+</div>
+
+    <script type='text/html' id='alert-template'>
+<div class='alert-item' role='alert'>
+<em class='alert-icon'></em>
+<button class='site-alert-close' title='Close alert' aria-label='Close alert'></button>
+<div class='alert-content'>
+<div class='alert-header'>
+<div class='alert-base-group'></div>
+<span class='alert-published'>
+<span class='delimiter'>&bull;</span>
+<span class='alert-published-text'>Published</span>
+<span class='alert-published-at'></span>
+</span>
+</div>
+<div class='alert-body'>
+<div class='alert-title'></div>
+</div>
+</div>
+</div >
+</script>
+<script type='text/javascript'>
+var siteAlerts = [];
+</script>
+
+
+
+
+    <div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE},
+        'google_translate_element');}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+
+
+
+
+
+    <button class="menu-button menu-button-expand">Menu</button>
+    <nav id="navigation" role="navigation" class="nav-homepage-main  nav-style-normal">
+        <button class="menu-button menu-button-close">Close</button>
+            <ul class="nav-list sm">
+                <li class="nav-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">Our School</span></a>
+
+    <ul class="nav-sub-list">
+                <li class="nav-sub-item">
+                    <a href="/about" class="nav-item-link" ><span class="nav-link-title">About</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/mission__vision" class="nav-item-link" ><span class="nav-link-title">Mission &amp; Vision</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/bell_schedule" class="nav-item-link" ><span class="nav-link-title">Bell Schedule</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/school_profile" class="nav-item-link" ><span class="nav-link-title">School Profile</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/directions" class="nav-item-link" ><span class="nav-link-title">Directions</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/faq" class="nav-item-link" ><span class="nav-link-title">FAQ</span></a>
+
+
+                </li>
+
+    </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">Academics</span></a>
+
+    <ul class="nav-sub-list">
+                <li class="nav-sub-item">
+                    <a href="/college_requirements" class="nav-item-link" ><span class="nav-link-title">College Requirements</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/graduation_requirements" class="nav-item-link" ><span class="nav-link-title">Graduation Requirements</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/iss" class="nav-item-link"  target="_blank" ><span class="nav-link-title">Instructional  Support Services</span></a>
+
+
+                </li>
+
+    </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">Partnerships</span></a>
+
+    <ul class="nav-sub-list">
+                <li class="nav-sub-item">
+                    <a href="/sap" class="nav-item-link" ><span class="nav-link-title">SAP</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/city_university_of_new_york_cuny" class="nav-item-link" ><span class="nav-link-title">City University Of New York (CUNY)</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/early_college_initiative_eci" class="nav-item-link" ><span class="nav-link-title">Early College Initiative (ECI)</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/office_of_postsecondary_readiness_opsr" class="nav-item-link" ><span class="nav-link-title">Office Of Post-secondary Readiness (OPSR)</span></a>
+
+
+                </li>
+
+    </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a href="/directory/faculty" class="nav-item-link" ><span class="nav-link-title">Faculty and Staff Directory</span></a>
+
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">Parents</span></a>
+
+    <ul class="nav-sub-list">
+                <li class="nav-sub-item">
+                    <a href="/pta" class="nav-item-link" ><span class="nav-link-title">PTA</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/slt" class="nav-item-link" ><span class="nav-link-title">SLT</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/newsletter" class="nav-item-link" ><span class="nav-link-title">Newsletter</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/parent_resources" class="nav-item-link" ><span class="nav-link-title">Parent Resources</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="https://www.myschoolapps.com/Home/PickDistrict" class="nav-item-link"  target="_blank" ><span class="nav-link-title">School Lunch Application</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/metrocards" class="nav-item-link" ><span class="nav-link-title">Metrocards</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a href="/staying_connected" class="nav-item-link" ><span class="nav-link-title">Staying Connected</span></a>
+
+
+                </li>
+
+    </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">Student Life</span></a>
+
+    <ul class="nav-sub-list">
+                <li class="nav-sub-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">Extracurricular Activities &amp; Clubs</span></a>
+
+    <ul class="nav-sub-list">
+                <li class="nav-sub-item">
+                    <a href="/extracurricular_student_activities" class="nav-item-link" ><span class="nav-link-title">Extracurricular Student Activities</span></a>
+
+
+                </li>
+
+    </ul>
+
+                </li>
+                <li class="nav-sub-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">Upcoming Events</span></a>
+
+    <ul class="nav-sub-list">
+                <li class="nav-sub-item">
+                    <a href="/whats_coming" class="nav-item-link" ><span class="nav-link-title">What&#39;s Coming?!</span></a>
+
+
+                </li>
+
+    </ul>
+
+                </li>
+                <li class="nav-sub-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">School Policies</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">BTECH Email</span></a>
+
+    <ul class="nav-sub-list">
+                <li class="nav-sub-item">
+                    <a href="http://www.gmail.com" class="nav-item-link"  target="_blank" ><span class="nav-link-title">BTECH Email System</span></a>
+
+
+                </li>
+
+    </ul>
+
+                </li>
+                <li class="nav-sub-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">PSAL</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">Working Papers</span></a>
+
+
+                </li>
+
+    </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a href="/contact_us" class="nav-item-link" ><span class="nav-link-title">Contact Us</span></a>
+
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">Getting Involved</span></a>
+
+    <ul class="nav-sub-list">
+                <li class="nav-sub-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">Amazon Smile</span></a>
+
+
+                </li>
+                <li class="nav-sub-item">
+                    <a class="nav-item-link" ><span class="nav-link-title">Donate</span></a>
+
+
+                </li>
+
+    </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a href="/news" class="nav-item-link" ><span class="nav-link-title">In The News</span></a>
+
+
+                </li>
+
+    </ul>
+
+
+
+
+
+    </nav>
+    <header class="header-homepage-main" role="banner">
+
+
+
+<div class="header-container full-block">
+            <div class="mast-head header-content-block ">
+
+
+                <div class="masthead">
+
+    <a href="/" class="home-link" title="Home page">
+            <img class="masthead-logo" src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/74936/site/settings/5fbc469e-65d1-4020-8e90-348e102985a7?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&amp;Expires=1887320749&amp;response-cache-control=private%2C%20max-age%3D31536000&amp;response-content-disposition=attachment%3Bfilename%3D%22BTECH_CMYK.png%22&amp;response-content-type=image%2Fpng&amp;Signature=spwQ6CEY5Ou%2BytZCWyUcFlymFAI%3D" alt="Logo"/>
+                        <h1 class="masthead-title">Business Technology Early College High School (BTECH)</h1>
+                    <div class="masthead-motto">Patrice Henry, Principal</div>
+    </a>
+</div>
+
+            </div>
+            <div class="list header-content-block without-title">
+
+
+                <div class="link-list-content">
+    <ul class="link-list">
+            <li class="link-list-item">
+
+                    <a href="/news" >
+                            <img class="link-list-image" src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/74936/site/linkImages/99ab1ce1-49cf-4898-955f-117bbbeb01a7?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&amp;Expires=1887113734&amp;response-cache-control=private%2C%20max-age%3D31536000&amp;response-content-disposition=attachment%3Bfilename%3D%22thumbnail_download.png%22&amp;response-content-type=image%2Fpng&amp;Signature=Fb2XDej4x1Lx1Y0bgnyyMDtlElU%3D" alt="" />
+                        <span class="link-list-text">In The News</span>
+                    </a>
+
+            </li>
+            <li class="link-list-item">
+
+                    <a href="https://www.facebook.com/btechnyc/"  target="_blank" >
+                        <img class="link-list-image" src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/74936/site/linkImages/9c807012-afad-421b-8041-4c6a1c581c61?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&amp;Expires=1881108900&amp;response-cache-control=private%2C%20max-age%3D31536000&amp;response-content-disposition=attachment%3Bfilename%3D%22thumbnail_f_logo_RGB-Hex-Blue_512.png%22&amp;response-content-type=image%2Fpng&amp;Signature=as8oV9JTOQ%2F4durkZPn%2F8py%2Fjek%3D" alt="https://www.facebook.com/btechnyc/" />
+                    </a>
+
+            </li>
+            <li class="link-list-item">
+
+                    <a href="https://twitter.com/btechschool?lang=en"  target="_blank" >
+                        <img class="link-list-image" src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/74936/site/linkImages/587174a0-55f5-4e6e-9917-7390aeb87d4b?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&amp;Expires=1881276057&amp;response-cache-control=private%2C%20max-age%3D31536000&amp;response-content-disposition=attachment%3Bfilename%3D%22thumbnail_twitter.png%22&amp;response-content-type=image%2Fpng&amp;Signature=uSWcSblDTpR3sULlp43lmRuJncI%3D" alt="https://twitter.com/btechschool?lang=en" />
+                    </a>
+
+            </li>
+    </ul>
+</div>
+            </div>
+            <div class="feed header-content-block without-title">
+
+
+                <ul class="feed-list" data-gallery-autoplay=False data-gallery-autoplay-duration=>
+        <li class="feed-post-item">
+            <section class="feed-post-wrapper">
+                <div class="feed-post-content">
+                    <div class="post-body-wrapper">
+
+                        <h3 class="post-title">Welcome to BTECH!</h3>
+                        <div class="post-body" data-hidden-part="true">
+                            <div>We are currently undergoing a new website update. Please bear with us!</div>
+<div>&nbsp;</div>
+<div>Questions? Call us at 718-217-3613!</div>
+                        </div>
+                    </div>
+
+                    <div class="post-source-wrapper" data-hidden-part="true">
+                        <span class="post-source">Business Technology Early College High School--BTECH</span>
+                    </div>
+                </div>
+            </section>
+        </li>
+</ul>
+            </div>
+            <div class="images header-content-block without-title">
+
+
+                <div class="image-content">
+    <ul class="carousel-gallery img-list" data-gallery-autoplay=True data-gallery-autoplay-duration=5>
+                <li class="slide-wrapper img-item">
+                    <figure class="img-wrapper">
+                        <img class="bg-img" src="https://image.echalk.com/site/74937/VFLsjbCpfzvB4yj0gH7ZqeN6O7hDyCHjeIi9OnQklLg3chD2whBWs-FRSKnjqcqhYUIenbcWUeU8qTmVFM59MkJZb1ZAZ88xUMGxbt2BIDk"  alt=""/>
+                    </figure>
+                </li>
+    </ul>
+</div>
+
+
+            </div>
+
+</div>
+        <div class="header-scrolling-button" role="button"></div>
+    </header>
+    <main class="content-homepage-main" id="main-content" role="main">
+        <div class="main-content-wrapper">
+
+
+
+
+<div class="row content-row compact quarter-half-quarter">
+            <div class="content-inner-row">
+            <div role="region" aria-label="News and Announcements" class="content-block quarter feed">
+                            <h2 class="block-title"><span>News and Announcements</span></h2>
+<ul class="feed-list" data-gallery-autoplay=False data-gallery-autoplay-duration=>
+        <li class="feed-post-item">
+            <section class="feed-post-wrapper">
+                <div class="feed-post-content">
+                    <div class="post-body-wrapper">
+
+                        <h3 class="post-title">Welcome to BTECH!</h3>
+                        <div class="post-body" data-hidden-part="true">
+                            <div>We are currently undergoing a new website update. Please bear with us!</div>
+<div>&nbsp;</div>
+<div>Questions? Call us at 718-217-3613!</div>
+                        </div>
+                    </div>
+
+                    <div class="post-source-wrapper" data-hidden-part="true">
+                        <span class="post-source">Business Technology Early College High School--BTECH</span>
+                    </div>
+                </div>
+            </section>
+        </li>
+</ul>
+            </div>
+            <div role="region" aria-label="User generated content block" class="content-block half images">
+<div class="image-content">
+    <ul class="carousel-gallery img-list" data-gallery-autoplay=True data-gallery-autoplay-duration=6>
+                <li class="slide-wrapper img-item">
+                    <figure class="img-wrapper">
+                        <img class="bg-img" src="https://image.echalk.com/site/74937/LJvqsZIb5qAZHnu38xqoLLEBhNq9Ps-FDCD0CGKtDV7MBslK-yUQnc7sx7SmYHajZeIguOfeMQC0URsAQlSarbMA0P5j56gjrfvBLltimJg"  alt=""/>
+                    </figure>
+                </li>
+                <li class="slide-wrapper img-item">
+                    <figure class="img-wrapper">
+                        <img class="bg-img" src="https://image.echalk.com/site/74937/L-7tsGe_5-y5msziSCOirhtolbq4M13LXD4BDVuPdf0V_NLPsqNE-SfHYiRmea9qKtY2HZuS-F4mqLCH1FYM1CYFZp8DlbPGE04Pm9CSWG0"  alt=""/>
+                    </figure>
+                </li>
+                <li class="slide-wrapper img-item">
+                    <figure class="img-wrapper">
+                        <img class="bg-img" src="https://image.echalk.com/site/74937/e24_1h49OPX7Hux4wCeSx2yXG5MVRpi5lGI2omLsKhZ2lEKFa13aIMd4c_Ig3p2RF1EXu5GV6rdCTmg101ykyOQssDuRrzcwdjtdDvHpsb8"  alt=""/>
+                    </figure>
+                </li>
+                <li class="slide-wrapper img-item">
+                    <figure class="img-wrapper">
+                        <img class="bg-img" src="https://image.echalk.com/site/74937/z_YdYJgfqxihbSSuIWWmKqHZATCcGiKJIV-gSo03j1KRUAsMqz8VqBxv-nFrkocgbtMzIojerxJFiiM6GGXTCuFa3FPTLG4WONUSv_7y1n8"  alt=""/>
+                    </figure>
+                </li>
+                <li class="slide-wrapper img-item">
+                    <figure class="img-wrapper">
+                        <img class="bg-img" src="https://image.echalk.com/site/74937/TpmbBXEhuRR-u3yMVJgJA8fsSkz1RSes7a0kHbAnDHKuKEPvZT1T0eM8sROC_mAQGCuE0RT3eW3ob7tmpsU0BSN9Uv7OwrdUkDN58tdPzq4"  alt=""/>
+                    </figure>
+                </li>
+    </ul>
+</div>
+
+
+            </div>
+            <div role="region" aria-label="TWITTER" class="content-block quarter social">
+                            <h2 class="block-title"><span>TWITTER</span></h2>
+<div class="social-content">
+    <a class="twitter-timeline"
+  href="https://twitter.com/{screen_name}">
+Tweets by @{btechnyc}
+</a>
+</div>
+
+
+            </div>
+
+            </div>
+        </div>
+<div class="row content-row compact two-third-one-third-col">
+            <div class="content-inner-row">
+            <div role="region" aria-label="Message from the Principal" class="content-block two-third html">
+                            <h2 class="block-title"><span>Message from the Principal</span></h2>
+<section class="html-wrapper">
+    <div class="html-wrapper-inner">
+        <p><span style="font-weight: 400;">Dear BTECH Families,</span></p>
+<p><span style="font-weight: 400;">Welcome to Business Technology Early College High School's newly launched website!&nbsp;</span></p>
+<p><span style="font-weight: 400;">Our intention is that this website will serve as a resource for our greater community to Stay Connected. It will provide timely, relevant and important information to guide you this year as we work towards high levels of success for each learner.&nbsp;</span></p>
+<p><span style="font-weight: 400;">BTECH is a very special place where we strive to ensure that all students feel apart of our school family. This year, we are launching a "Be Known" Campaign because we recognize the importance of relationships between students, teachers, and families. We will look to you for support as we learn more about how to best meet your child's needs.</span></p>
+<p><span style="font-weight: 400;">We have done a great deal of reflection&nbsp; to ensure our program is true to its vision and mission. Our goal is that each graduate will embody our core values to be a great Collaborator, Resilient, Advocate for Change, Focused/Goal-Oriented&nbsp; and Tenacious. We will strive each day to create experiences that will draw out these values.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Our academic program is rigorous and fosters a curious, creative and innovative mind, while providing a balanced high school experience of co-curricular activities, SEL program, Community Days, PSAL team sports, clubs, electives, Advanced Placement courses, career readiness experiences and much more. We are confident that we are graduating students that are college, and career ready and leaders well-equipped to contribute in their communities.</span></p>
+<p><span style="font-weight: 400;">We will continue to pledge to increase and improve our communication with parents/guardians, and provide opportunities for parents/guardians to participate in their child's high school experience. It is my hope that each parent/guardian makes an effort to take us up on the many invitations we will send you this year.</span></p>
+<p class="tinymce-block"><span style="font-weight: 400;">Here's a great 2019-2020 academic year.</span></p>
+<p><span style="font-weight: 400;">Be Brave. Be Bold. Be Kind.</span></p>
+<p><span style="font-weight: 400;">Educationally,</span></p>
+<p><span style="font-weight: 400;">Principal Henry</span></p>
+    </div>
+</section>
+
+
+
+
+
+            </div>
+            <div role="region" aria-label="Virtual Backpack" class="content-block one-third images">
+                            <h2 class="block-title"><span>Virtual Backpack</span></h2>
+<div class="image-content">
+    <ul class="carousel-gallery img-list" data-gallery-autoplay=False data-gallery-autoplay-duration=>
+                <li class="slide-wrapper img-item">
+                    <figure class="img-wrapper">
+                        <img class="bg-img" src="https://image.echalk.com/site/74937/EAAFtL4TOjn5CpLsek-mqDRIXjYp32LM9O_3QJ_6G0GdgVocomMj217xH-czbzTRLp06fA5Gj17E8LhxKR2WnHMlpj9MizOrBjm2S7Eb48w"  alt=""/>
+                            <figcaption class="img-caption"><div class="caption-wrapper"><p class="tinymce-block"><a href="https://drive.google.com/drive/folders/1KRRMmKzEOFGBAeRX4szTzAR1c_lFPmOV?usp=sharing" target="_self">Virtual Backpack</a></p></div></figcaption>
+                    </figure>
+                </li>
+    </ul>
+</div>
+
+
+            </div>
+
+            </div>
+        </div>
+<div class="row content-row tall one-col">
+            <div class="content-inner-row">
+            <div role="region" aria-label="User generated content block" class="content-block full html">
+<section class="html-wrapper">
+    <div class="html-wrapper-inner">
+        <center><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.290407613712!2d-73.74133218507932!3d40.733634944229514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2622460ced4a1%3A0xd6c7981951b00d23!2s230-17+Hillside+Avenue%2C+Queens+Village%2C+NY+11427!5e0!3m2!1sen!2sus!4v1565953814875!5m2!1sen!2sus" width="1200" height="400" frameborder="0" allowfullscreen=""></iframe></center>
+    </div>
+</section>
+
+
+
+
+
+            </div>
+
+            </div>
+        </div>
+
+        </div>
+    </main>
+
+    <footer class="footer-homepage-main" role="contentinfo">
+        <div class="footer-inner">
+            <section>
+
+
+                    <address class="group-site-info">
+
+            <p class="group-name">Business Technology Early College High School--BTECH</p>
+        <p class="group-address">
+                <span class="address-line-1">230-17 Hillside Avenue</span>
+                                        <span class="address-line-3"><span class="city">Queens</span>, <span class="state">NY</span> <span>11427</span> </span>
+        </p>
+        <p class="group-contacts">
+                <span class="group-phone">(718) 217-3613</span>
+                            <span class="group-fax"> (718) 217-3616</span>
+        </p>
+    </address>
+
+
+
+            </section>
+            <div class="echalk-info">
+    <span>Copyright © 2015-2019</span> <a href="http://www.echalk.com" class="echalk-link" target="_blank">eChalk Inc.</a>
+</div>
+
+
+        </div>
+    </footer>
+    <div id="read-more-modal-content"></div>
+
+
+<div class="slider" aria-hidden="true">
+                <a class="slider-button">eChalk&nbsp;Notify&nbsp;App</a>
+                <div class="side-panel">
+                    <a class="close-sign">&#x2715;</a>
+                    <p class="message-header">
+                        Get real time school updates on your mobile device with <a href="https://www.echalk.com/notify" target="_blank">eChalk Notify</a>.
+                    </p>
+                    <p class="message-text">
+                        Connect with code <span class="code">DGNS0Y</span> to get instant alerts or log in with your eChalk user
+                        account for the latest updates from all your classes and groups.
+                    </p>
+                    <div class="badges">
+                        <div>
+                            <a href='https://play.google.com/store/apps/details?id=com.echalk.SlateMobile'>
+                                <img alt='Get it on Google Play'
+                                     src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
+                            </a>
+                        </div>
+                        <div>
+                            <a href='https://itunes.apple.com/us/app/echalk-notify/id1412392735'>
+                                <img style="margin:6%;width:88%" alt='Get it on App Store'
+                                     src='https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg'/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                $(".slider-button").click(function (event) {
+                    event.stopPropagation();
+                    let slider = $(".slider");
+                    let sidePanel = $(".side-panel");
+                    if (slider.hasClass("slider-visible")) {
+                        slider.removeClass("slider-visible");
+                        sidePanel.removeClass("side-panel-visible");
+                    } else {
+                        slider.addClass("slider-visible");
+                        sidePanel.addClass("side-panel-visible");
+                    }
+                });
+                $(".close-sign").click(function (event) {
+                    event.stopPropagation();
+                    $(".slider").removeClass("slider-visible");
+                    $(".side-panel").removeClass("side-panel-visible");
+                });
+            </script>
+
+<!--
+Rendered At: 2019-11-20T14:32:10.1833967Z
+Fingerprint: cab9ed33-b542-4cdd-8ff7-f2bd98ea3935
+-->
+
+</body>
+</html>
